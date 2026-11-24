@@ -1,0 +1,27 @@
+CREATE TABLE supply_chain (
+    product_type VARCHAR(50),
+    sku VARCHAR(20),
+    price NUMERIC,
+    availability INT,
+    products_sold INT,
+    revenue_generated NUMERIC,
+    customer_demographics VARCHAR(20),
+    stock_levels INT,
+    lead_times INT,
+    order_quantities INT,
+    shipping_times INT,
+    shipping_carriers VARCHAR(20),
+    shipping_costs NUMERIC,
+    supplier_name VARCHAR(20),
+    location VARCHAR(50),
+    lead_time INT,
+    production_volumes INT,
+    manufacturing_lead_time INT,
+    manufacturing_costs NUMERIC,
+    inspection_results VARCHAR(20),
+    defect_rates NUMERIC,
+    transportation_modes VARCHAR(20),
+    routes VARCHAR(20),
+    costs NUMERIC
+);
+select * from supply_cha
